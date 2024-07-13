@@ -1,0 +1,21 @@
+/* MapComponent.css */
+.map-container {
+    height: 500px;
+    width:100%;
+    border: 2px solid #3a5391;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 25px;
+    /*margin-left: 170px;*/
+    
+  }
+  
+  .map-header {
+    text-align: center;
+    font-size: 1.5em;
+    color: #3c4d9b;
+    margin-bottom: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 50px;
+  }
+  

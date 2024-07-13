@@ -1,0 +1,17 @@
+﻿
+using My_Uber.DTOs;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace My_Uber.Services
+{
+    public interface IUserService
+    {
+        public List<UserDTO> GetAll();
+        
+       
+    }
+}

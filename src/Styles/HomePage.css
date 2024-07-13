@@ -1,0 +1,20 @@
+body, html, #root, .homepage {
+    height: 100%;
+    margin: 0;
+  }
+  
+  .homepage {
+    display: flex;
+    flex-direction: column;
+    background-color: #f8f9fa; /* Background color for the full page */
+  }
+  
+  .map-fullscreen {
+    flex-grow: 1;
+    display: flex;
+  }
+  
+  .map-container {
+    flex-grow: 1;
+  }
+  

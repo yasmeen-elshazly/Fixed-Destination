@@ -1,0 +1,14 @@
+F:\ITI\EdgePro\Back-end\Models\bin\Debug\net8.0\My-Uber.Models.deps.json
+F:\ITI\EdgePro\Back-end\Models\bin\Debug\net8.0\My-Uber.Models.runtimeconfig.json
+F:\ITI\EdgePro\Back-end\Models\bin\Debug\net8.0\My-Uber.Models.dll
+F:\ITI\EdgePro\Back-end\Models\bin\Debug\net8.0\My-Uber.Models.pdb
+F:\ITI\EdgePro\Back-end\Models\obj\Debug\net8.0\My-Uber.Models.csproj.AssemblyReference.cache
+F:\ITI\EdgePro\Back-end\Models\obj\Debug\net8.0\My-Uber.Models.GeneratedMSBuildEditorConfig.editorconfig
+F:\ITI\EdgePro\Back-end\Models\obj\Debug\net8.0\My-Uber.Models.AssemblyInfoInputs.cache
+F:\ITI\EdgePro\Back-end\Models\obj\Debug\net8.0\My-Uber.Models.AssemblyInfo.cs
+F:\ITI\EdgePro\Back-end\Models\obj\Debug\net8.0\My-Uber.Models.csproj.CoreCompileInputs.cache
+F:\ITI\EdgePro\Back-end\Models\obj\Debug\net8.0\My-Uber.Models.dll
+F:\ITI\EdgePro\Back-end\Models\obj\Debug\net8.0\refint\My-Uber.Models.dll
+F:\ITI\EdgePro\Back-end\Models\obj\Debug\net8.0\My-Uber.Models.pdb
+F:\ITI\EdgePro\Back-end\Models\obj\Debug\net8.0\My-Uber.Models.genruntimeconfig.cache
+F:\ITI\EdgePro\Back-end\Models\obj\Debug\net8.0\ref\My-Uber.Models.dll

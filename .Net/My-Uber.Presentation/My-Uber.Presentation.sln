@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34723.18
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "My-Uber.Presentation", "My-Uber.Presentation.csproj", "{E02802A5-8B7A-4E53-8E27-F65192883D9C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "My-Uber.Models", "..\Models\My-Uber.Models.csproj", "{BDA32B94-28F3-41F7-89F3-7E8B16EDF45E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "My-Uber.DTOs", "..\My-Uber.DTOs\My-Uber.DTOs.csproj", "{2DBBB8E8-60D9-47D0-BF9C-8F09CB912630}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "My-Uber.Context", "..\My-Uber.Context\My-Uber.Context.csproj", "{DFF63930-B4A2-480C-ACC1-EBA9F4366B60}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "My-Uber.Services", "..\My-Uber.Services\My-Uber.Services.csproj", "{C6F51017-E79C-42A2-9DDD-6202F58F9C36}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "My-Uber.Repositories", "..\My-Uber.Repositories\My-Uber.Repositories.csproj", "{54A0BB93-1B94-4BB5-B436-BAD4953139F8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E02802A5-8B7A-4E53-8E27-F65192883D9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E02802A5-8B7A-4E53-8E27-F65192883D9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E02802A5-8B7A-4E53-8E27-F65192883D9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E02802A5-8B7A-4E53-8E27-F65192883D9C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BDA32B94-28F3-41F7-89F3-7E8B16EDF45E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDA32B94-28F3-41F7-89F3-7E8B16EDF45E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDA32B94-28F3-41F7-89F3-7E8B16EDF45E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDA32B94-28F3-41F7-89F3-7E8B16EDF45E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2DBBB8E8-60D9-47D0-BF9C-8F09CB912630}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DBBB8E8-60D9-47D0-BF9C-8F09CB912630}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DBBB8E8-60D9-47D0-BF9C-8F09CB912630}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DBBB8E8-60D9-47D0-BF9C-8F09CB912630}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFF63930-B4A2-480C-ACC1-EBA9F4366B60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFF63930-B4A2-480C-ACC1-EBA9F4366B60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFF63930-B4A2-480C-ACC1-EBA9F4366B60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFF63930-B4A2-480C-ACC1-EBA9F4366B60}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6F51017-E79C-42A2-9DDD-6202F58F9C36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6F51017-E79C-42A2-9DDD-6202F58F9C36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6F51017-E79C-42A2-9DDD-6202F58F9C36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6F51017-E79C-42A2-9DDD-6202F58F9C36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54A0BB93-1B94-4BB5-B436-BAD4953139F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54A0BB93-1B94-4BB5-B436-BAD4953139F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54A0BB93-1B94-4BB5-B436-BAD4953139F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54A0BB93-1B94-4BB5-B436-BAD4953139F8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A23496A9-54C2-4F77-A71E-293B899D1B55}
+	EndGlobalSection
+EndGlobal

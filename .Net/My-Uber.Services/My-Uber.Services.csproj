@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>My_Uber.Services</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="13.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Models\My-Uber.Models.csproj" />
+    <ProjectReference Include="..\My-Uber.DTOs\My-Uber.DTOs.csproj" />
+    <ProjectReference Include="..\My-Uber.Repositories\My-Uber.Repositories.csproj" />
+  </ItemGroup>
+
+</Project>
