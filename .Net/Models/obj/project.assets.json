@@ -4286,11 +4286,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\ITI\\EdgePro\\Back-end\\Models\\My-Uber.Models.csproj",
+      "projectUniqueName": "F:\\ITI\\My App\\Fixed-Destination\\.Net\\Models\\My-Uber.Models.csproj",
       "projectName": "My-Uber.Models",
-      "projectPath": "F:\\ITI\\EdgePro\\Back-end\\Models\\My-Uber.Models.csproj",
+      "projectPath": "F:\\ITI\\My App\\Fixed-Destination\\.Net\\Models\\My-Uber.Models.csproj",
       "packagesPath": "C:\\Users\\Yasmeen Elshazly\\.nuget\\packages\\",
-      "outputPath": "F:\\ITI\\EdgePro\\Back-end\\Models\\obj\\",
+      "outputPath": "F:\\ITI\\My App\\Fixed-Destination\\.Net\\Models\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Yasmeen Elshazly\\AppData\\Roaming\\NuGet\\NuGet.Config",

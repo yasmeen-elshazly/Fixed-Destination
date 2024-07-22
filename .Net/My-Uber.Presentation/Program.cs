@@ -1,136 +1,85 @@
 
-using My_Uber.Context;
-using My_Uber.Context.Context;
-
-using My_Uber.Repositories.Contract;
-using My_Uber.Repositories.Repositories;
-using My_Uber.Services;
-using My_Uber.Services.MP;
-using Microsoft.AspNetCore.Authentication.JwtBearer;
-using Microsoft.AspNetCore.Cors.Infrastructure;
+using AutoMapper;
+using Microsoft.AspNetCore.Builder;
+using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.IdentityModel.Tokens;
+using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.DependencyInjection;
 using Microsoft.OpenApi.Models;
-using Models;
-using System.Text;
+using My_Uber.Repositories.Contract;
+using My_Uber.Repositories.Repositories;
+using My_Uber.Services.MP;
+using My_Uber.Services;
+using System.Threading.Tasks;
+using My_Uber.Context.Context;
 
-var builder = WebApplication.CreateBuilder(args);
-
-// Add services to the container.
-builder.Services.AddScoped<IUserRepository, UserRepository>();
-builder.Services.AddScoped<IUserService, UserService>();
-
-
-builder.Services.AddDbContext<MyUberDbContext>(options =>
+namespace Building.Presentation
 {
-    options.UseSqlServer(builder.Configuration.GetConnectionString("DB"));
-});
-
-builder.Services.AddIdentity<User, IdentityRole>()
-    .AddEntityFrameworkStores<MyUberDbContext>()
-    .AddDefaultTokenProviders();
-
-builder.Services.AddAuthentication(options =>
-{
-    options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
-    options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
-}).AddJwtBearer(options =>
-{
-    options.TokenValidationParameters = new TokenValidationParameters
+    public class Program
     {
-        IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["JWT:Key"])),
-        ValidateIssuerSigningKey = true,
-        ValidateIssuer = false,
-        ValidateAudience = false,
-    };
-    options.Events = new JwtBearerEvents
-    {
-        OnAuthenticationFailed = context =>
+        public static async Task Main(string[] args)
         {
-            Console.WriteLine("OnAuthenticationFailed: " + context.Exception.Message);
-            return Task.CompletedTask;
-        },
-        OnTokenValidated = context =>
-        {
-            Console.WriteLine("OnTokenValidated: " + context.SecurityToken);
-            return Task.CompletedTask;
-        }
-    };
-});
+            var builder = WebApplication.CreateBuilder(args);
 
-builder.Services.AddCors(options =>
-{
-    options.AddPolicy("AllowOrigins", builder =>
-    {
-        builder.WithOrigins("http://localhost:5122")
-               .AllowAnyHeader()
-               .AllowAnyMethod();
-    });
-});
+            // Add services to the container.
+            builder.Services.AddScoped<IBuildingService, BuildingService>();
+            builder.Services.AddScoped<IBuildingRepository, BuildingRepository>();
 
-builder.Services.AddSwaggerGen(c =>
-{
-    c.SwaggerDoc("v1", new OpenApiInfo { Title = "My API", Version = "v1" });
-
-    c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
-    {
-        Description = "JWT Authorization header using the Bearer scheme. Example: \"Authorization: Bearer {token}\"",
-        Name = "Authorization",
-        In = ParameterLocation.Header,
-        Type = SecuritySchemeType.ApiKey,
-        Scheme = "Bearer"
-    });
-
-    c.AddSecurityRequirement(new OpenApiSecurityRequirement
-    {
-        {
-            new OpenApiSecurityScheme
+            builder.Services.AddDbContext<MyUberDbContext>(options =>
             {
-                Reference = new OpenApiReference
-                {
-                    Type = ReferenceType.SecurityScheme,
-                    Id = "Bearer"
-                },
-                Scheme = "oauth2",
-                Name = "Bearer",
-                In = ParameterLocation.Header
-            },
-            new string[] {}
+                options.UseSqlServer(builder.Configuration.GetConnectionString("DB"));
+            });
+
+            builder.Services.AddIdentity<IdentityUser, IdentityRole>(options =>
+            {
+                // Configure identity options if needed
+            })
+            .AddEntityFrameworkStores<MyUberDbContext>()
+            .AddDefaultTokenProviders();
+
+
+            builder.Services.AddSwaggerGen(c =>
+            {
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "My API", Version = "v1" });
+
+
+            });
+
+            builder.Services.AddAutoMapper(typeof(MapperProfile)); // Register the mapping profile
+
+            // Configure CORS policy to allow requests from localhost:3000
+            builder.Services.AddCors(options =>
+            {
+                options.AddPolicy("AllowReactApp",
+                    builder =>
+                    {
+                        builder.WithOrigins("http://localhost:3000")
+                               .AllowAnyHeader()
+                               .AllowAnyMethod();
+                    });
+            });
+
+            builder.Services.AddControllers();
+
+            var app = builder.Build();
+
+
+            // Configure the HTTP request pipeline.
+            if (app.Environment.IsDevelopment())
+            {
+                app.UseSwagger();
+                app.UseSwaggerUI();
+            }
+
+            app.UseHttpsRedirection();
+            app.UseCors("AllowReactApp");
+            // Uncomment if authentication is added
+            // app.UseAuthentication();
+            app.UseAuthorization();
+            app.MapControllers();
+
+            app.Run();
         }
-    });
-});
-
-builder.Services.AddAutoMapper(op =>
-{
-    op.AddProfile(new MapperProfile());
-});
-
-builder.Services.AddControllers();
-
-var app = builder.Build();
-
-// Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
-{
-    app.UseSwagger();
-    app.UseSwaggerUI();
+    }
 }
-
-app.UseHttpsRedirection();
-app.UseCors("AllowOrigins");
-app.UseAuthentication();
-app.UseAuthorization();
-
-app.MapControllers();
-
-app.Run();
-
-
-
-
-
-
-
-
-

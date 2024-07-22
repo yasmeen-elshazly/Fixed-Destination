@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\ITI\\EdgePro\\Back-end\\My-Uber.DTOs\\My-Uber.DTOs.csproj": {}
+    "F:\\ITI\\My App\\Fixed-Destination\\.Net\\My-Uber.DTOs\\My-Uber.DTOs.csproj": {}
   },
   "projects": {
-    "F:\\ITI\\EdgePro\\Back-end\\My-Uber.DTOs\\My-Uber.DTOs.csproj": {
+    "F:\\ITI\\My App\\Fixed-Destination\\.Net\\My-Uber.DTOs\\My-Uber.DTOs.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\ITI\\EdgePro\\Back-end\\My-Uber.DTOs\\My-Uber.DTOs.csproj",
+        "projectUniqueName": "F:\\ITI\\My App\\Fixed-Destination\\.Net\\My-Uber.DTOs\\My-Uber.DTOs.csproj",
         "projectName": "My-Uber.DTOs",
-        "projectPath": "F:\\ITI\\EdgePro\\Back-end\\My-Uber.DTOs\\My-Uber.DTOs.csproj",
+        "projectPath": "F:\\ITI\\My App\\Fixed-Destination\\.Net\\My-Uber.DTOs\\My-Uber.DTOs.csproj",
         "packagesPath": "C:\\Users\\Yasmeen Elshazly\\.nuget\\packages\\",
-        "outputPath": "F:\\ITI\\EdgePro\\Back-end\\My-Uber.DTOs\\obj\\",
+        "outputPath": "F:\\ITI\\My App\\Fixed-Destination\\.Net\\My-Uber.DTOs\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Yasmeen Elshazly\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,32 +1,13 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "F:\\ITI\\EdgePro\\Back-end\\My-Uber.Presentation\\",
+  "WorkspaceRootPath": "F:\\ITI\\My App\\Fixed-Destination\\.Net\\My-Uber.Presentation\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2DBBB8E8-60D9-47D0-BF9C-8F09CB912630}|..\\My-Uber.DTOs\\My-Uber.DTOs.csproj|f:\\iti\\edgepro\\back-end\\my-uber.dtos\\register\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2DBBB8E8-60D9-47D0-BF9C-8F09CB912630}|..\\My-Uber.DTOs\\My-Uber.DTOs.csproj|f:\\iti\\my app\\fixed-destination\\.net\\my-uber.dtos\\buildingdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2DBBB8E8-60D9-47D0-BF9C-8F09CB912630}|..\\My-Uber.DTOs\\My-Uber.DTOs.csproj|f:\\iti\\edgepro\\back-end\\my-uber.dtos\\register\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2DBBB8E8-60D9-47D0-BF9C-8F09CB912630}|..\\My-Uber.DTOs\\My-Uber.DTOs.csproj|f:\\iti\\edgepro\\back-end\\my-uber.dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E02802A5-8B7A-4E53-8E27-F65192883D9C}|My-Uber.Presentation.csproj|f:\\iti\\edgepro\\back-end\\my-uber.presentation\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{E02802A5-8B7A-4E53-8E27-F65192883D9C}|My-Uber.Presentation.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E02802A5-8B7A-4E53-8E27-F65192883D9C}|My-Uber.Presentation.csproj|f:\\iti\\edgepro\\back-end\\my-uber.presentation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E02802A5-8B7A-4E53-8E27-F65192883D9C}|My-Uber.Presentation.csproj|f:\\iti\\my app\\fixed-destination\\.net\\my-uber.presentation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E02802A5-8B7A-4E53-8E27-F65192883D9C}|My-Uber.Presentation.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C6F51017-E79C-42A2-9DDD-6202F58F9C36}|..\\My-Uber.Services\\My-Uber.Services.csproj|f:\\iti\\edgepro\\back-end\\my-uber.services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C6F51017-E79C-42A2-9DDD-6202F58F9C36}|..\\My-Uber.Services\\My-Uber.Services.csproj|f:\\iti\\edgepro\\back-end\\my-uber.services\\mapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DFF63930-B4A2-480C-ACC1-EBA9F4366B60}|..\\My-Uber.Context\\My-Uber.Context.csproj|f:\\iti\\edgepro\\back-end\\my-uber.context\\context\\myuberdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -36,110 +17,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "F:\\ITI\\EdgePro\\Back-end\\My-Uber.Presentation\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "F:\\ITI\\EdgePro\\Back-end\\My-Uber.Presentation\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAD8AAAAAAAAAAAAAAAIAAAAGAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-12T20:30:25.471Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "UserDTO.cs",
-              "DocumentMoniker": "F:\\ITI\\EdgePro\\Back-end\\My-Uber.DTOs\\UserDTO.cs",
-              "RelativeDocumentMoniker": "..\\My-Uber.DTOs\\UserDTO.cs",
-              "ToolTip": "F:\\ITI\\EdgePro\\Back-end\\My-Uber.DTOs\\UserDTO.cs",
-              "RelativeToolTip": "..\\My-Uber.DTOs\\UserDTO.cs",
+              "DocumentIndex": 0,
+              "Title": "BuildingDTO.cs",
+              "DocumentMoniker": "F:\\ITI\\My App\\Fixed-Destination\\.Net\\My-Uber.DTOs\\BuildingDTO.cs",
+              "RelativeDocumentMoniker": "..\\My-Uber.DTOs\\BuildingDTO.cs",
+              "ToolTip": "F:\\ITI\\My App\\Fixed-Destination\\.Net\\My-Uber.DTOs\\BuildingDTO.cs",
+              "RelativeToolTip": "..\\My-Uber.DTOs\\BuildingDTO.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-12T20:22:46.878Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "MyUberDbContext.cs",
-              "DocumentMoniker": "F:\\ITI\\EdgePro\\Back-end\\My-Uber.Context\\Context\\MyUberDbContext.cs",
-              "RelativeDocumentMoniker": "..\\My-Uber.Context\\Context\\MyUberDbContext.cs",
-              "ToolTip": "F:\\ITI\\EdgePro\\Back-end\\My-Uber.Context\\Context\\MyUberDbContext.cs",
-              "RelativeToolTip": "..\\My-Uber.Context\\Context\\MyUberDbContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-12T20:22:42.351Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "UserService.cs",
-              "DocumentMoniker": "F:\\ITI\\EdgePro\\Back-end\\My-Uber.Services\\UserService.cs",
-              "RelativeDocumentMoniker": "..\\My-Uber.Services\\UserService.cs",
-              "ToolTip": "F:\\ITI\\EdgePro\\Back-end\\My-Uber.Services\\UserService.cs",
-              "RelativeToolTip": "..\\My-Uber.Services\\UserService.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAAzwB8AAAA5AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-12T20:21:13.915Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "MapperProfile.cs",
-              "DocumentMoniker": "F:\\ITI\\EdgePro\\Back-end\\My-Uber.Services\\MapperProfile.cs",
-              "RelativeDocumentMoniker": "..\\My-Uber.Services\\MapperProfile.cs",
-              "ToolTip": "F:\\ITI\\EdgePro\\Back-end\\My-Uber.Services\\MapperProfile.cs",
-              "RelativeToolTip": "..\\My-Uber.Services\\MapperProfile.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAdAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-12T20:21:01.244Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "F:\\ITI\\EdgePro\\Back-end\\My-Uber.Presentation\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "F:\\ITI\\EdgePro\\Back-end\\My-Uber.Presentation\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAA0AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-07-12T19:15:39.029Z",
+              "WhenOpened": "2024-07-19T19:48:06.255Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "RegisterDTO.cs",
-              "DocumentMoniker": "F:\\ITI\\EdgePro\\Back-end\\My-Uber.DTOs\\Register\\RegisterDTO.cs",
-              "RelativeDocumentMoniker": "..\\My-Uber.DTOs\\Register\\RegisterDTO.cs",
-              "ToolTip": "F:\\ITI\\EdgePro\\Back-end\\My-Uber.DTOs\\Register\\RegisterDTO.cs",
-              "RelativeToolTip": "..\\My-Uber.DTOs\\Register\\RegisterDTO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAgAAAA",
+              "Title": "Program.cs",
+              "DocumentMoniker": "F:\\ITI\\My App\\Fixed-Destination\\.Net\\My-Uber.Presentation\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "F:\\ITI\\My App\\Fixed-Destination\\.Net\\My-Uber.Presentation\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-12T20:17:14.202Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "LoginDTO.cs",
-              "DocumentMoniker": "F:\\ITI\\EdgePro\\Back-end\\My-Uber.DTOs\\Register\\LoginDTO.cs",
-              "RelativeDocumentMoniker": "..\\My-Uber.DTOs\\Register\\LoginDTO.cs",
-              "ToolTip": "F:\\ITI\\EdgePro\\Back-end\\My-Uber.DTOs\\Register\\LoginDTO.cs",
-              "RelativeToolTip": "..\\My-Uber.DTOs\\Register\\LoginDTO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-12T20:13:03.734Z",
+              "WhenOpened": "2024-07-18T22:42:23.984Z",
               "EditorCaption": ""
             }
           ]

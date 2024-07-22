@@ -9,3 +9,15 @@ F:\ITI\EdgePro\Back-end\My-Uber.DTOs\obj\Debug\net8.0\My-Uber.DTOs.dll
 F:\ITI\EdgePro\Back-end\My-Uber.DTOs\obj\Debug\net8.0\refint\My-Uber.DTOs.dll
 F:\ITI\EdgePro\Back-end\My-Uber.DTOs\obj\Debug\net8.0\My-Uber.DTOs.pdb
 F:\ITI\EdgePro\Back-end\My-Uber.DTOs\obj\Debug\net8.0\ref\My-Uber.DTOs.dll
+F:\ITI\My App\Fixed-Destination\.Net\My-Uber.DTOs\bin\Debug\net8.0\My-Uber.DTOs.deps.json
+F:\ITI\My App\Fixed-Destination\.Net\My-Uber.DTOs\bin\Debug\net8.0\My-Uber.DTOs.dll
+F:\ITI\My App\Fixed-Destination\.Net\My-Uber.DTOs\bin\Debug\net8.0\My-Uber.DTOs.pdb
+F:\ITI\My App\Fixed-Destination\.Net\My-Uber.DTOs\obj\Debug\net8.0\My-Uber.DTOs.GeneratedMSBuildEditorConfig.editorconfig
+F:\ITI\My App\Fixed-Destination\.Net\My-Uber.DTOs\obj\Debug\net8.0\My-Uber.DTOs.AssemblyInfoInputs.cache
+F:\ITI\My App\Fixed-Destination\.Net\My-Uber.DTOs\obj\Debug\net8.0\My-Uber.DTOs.AssemblyInfo.cs
+F:\ITI\My App\Fixed-Destination\.Net\My-Uber.DTOs\obj\Debug\net8.0\My-Uber.DTOs.csproj.CoreCompileInputs.cache
+F:\ITI\My App\Fixed-Destination\.Net\My-Uber.DTOs\obj\Debug\net8.0\My-Uber.DTOs.sourcelink.json
+F:\ITI\My App\Fixed-Destination\.Net\My-Uber.DTOs\obj\Debug\net8.0\My-Uber.DTOs.dll
+F:\ITI\My App\Fixed-Destination\.Net\My-Uber.DTOs\obj\Debug\net8.0\refint\My-Uber.DTOs.dll
+F:\ITI\My App\Fixed-Destination\.Net\My-Uber.DTOs\obj\Debug\net8.0\My-Uber.DTOs.pdb
+F:\ITI\My App\Fixed-Destination\.Net\My-Uber.DTOs\obj\Debug\net8.0\ref\My-Uber.DTOs.dll

@@ -2968,11 +2968,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\ITI\\EdgePro\\Back-end\\My-Uber.Repositories\\My-Uber.Repositories.csproj",
+      "projectUniqueName": "F:\\ITI\\My App\\Fixed-Destination\\.Net\\My-Uber.Repositories\\My-Uber.Repositories.csproj",
       "projectName": "My-Uber.Repositories",
-      "projectPath": "F:\\ITI\\EdgePro\\Back-end\\My-Uber.Repositories\\My-Uber.Repositories.csproj",
+      "projectPath": "F:\\ITI\\My App\\Fixed-Destination\\.Net\\My-Uber.Repositories\\My-Uber.Repositories.csproj",
       "packagesPath": "C:\\Users\\Yasmeen Elshazly\\.nuget\\packages\\",
-      "outputPath": "F:\\ITI\\EdgePro\\Back-end\\My-Uber.Repositories\\obj\\",
+      "outputPath": "F:\\ITI\\My App\\Fixed-Destination\\.Net\\My-Uber.Repositories\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Yasmeen Elshazly\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -2989,8 +2989,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "F:\\ITI\\EdgePro\\Back-end\\My-Uber.Context\\My-Uber.Context.csproj": {
-              "projectPath": "F:\\ITI\\EdgePro\\Back-end\\My-Uber.Context\\My-Uber.Context.csproj"
+            "F:\\ITI\\My App\\Fixed-Destination\\.Net\\My-Uber.Context\\My-Uber.Context.csproj": {
+              "projectPath": "F:\\ITI\\My App\\Fixed-Destination\\.Net\\My-Uber.Context\\My-Uber.Context.csproj"
             }
           }
         }
